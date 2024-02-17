@@ -1,9 +1,9 @@
 #!/usr/bin/node
-// prints 3 lines: (like 1-multi_languages.js) but by
-// using an array of string and a loop
 
-const langs = ['C is fun', 'Python is cool', 'Javascript is amazing'];
+const myStr = ['C is fun', 'Python is cool', 'JavaScript is amazing'];
+let idx = 0;
 
-for (let i = 0; i < 3; i++) {
-  console.log(langs[i]);
+while (idx < 3) {
+  console.log(myStr[idx]);
+  idx++;
 }
